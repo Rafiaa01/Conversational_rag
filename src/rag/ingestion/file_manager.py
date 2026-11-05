@@ -15,7 +15,7 @@ def calculate_file_hash(file_path: Path) -> str:
 
 
 def scan_pdf_files(data_dir: Path) -> dict:
-    """Scan the data directory and calculate PDF hashes."""
+    """Scan the data directory and calculate PDF Hashes."""
 
     pdf_files = {}
 

@@ -29,7 +29,6 @@ def get_session(session_id):
     with open(session_file, "r", encoding="utf-8") as file:
         return json.load(file)
 
-
 def update_session(session_id, history):
     session_file = SESSIONS_DIR / f"{session_id}.json"
 

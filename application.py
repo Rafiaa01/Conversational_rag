@@ -10,6 +10,5 @@ application = FastAPI(title="Employee Policy RAG Chatbot")
 def home():
     return {"message": "API Running"}
 
-
 application.include_router(chat_router)
 application.include_router(session_router)

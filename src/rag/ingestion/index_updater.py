@@ -13,7 +13,7 @@ def update_vector_store(
     chunk_size=800,
     chunk_overlap=100,
 ):
-    """Incrementally update the existing FAISS index."""
+    """Incrementally Update the existing FAISS index. """
 
     document_records = {}
     new_chunks = []

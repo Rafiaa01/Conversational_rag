@@ -7,6 +7,7 @@ PDF_PATH = BASE_DIR / "src" / "data" / "fictional_employee_policies.pdf"
 
 
 def load_pdf(pdf_path=PDF_PATH):
+    
     """Load PDF pages while preserving source and page metadata."""
 
     if not pdf_path.exists():

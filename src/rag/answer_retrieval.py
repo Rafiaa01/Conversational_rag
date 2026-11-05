@@ -8,7 +8,8 @@ load_dotenv()
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
-prompt = ChatPromptTemplate.from_template("""
+prompt = ChatPromptTemplate.from_template(
+    """
 You are an assistant answering questions about an employee policy handbook.
 
 Answer the question using only the context provided.

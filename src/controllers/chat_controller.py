@@ -1,4 +1,5 @@
 from fastapi import HTTPException
+
 from src.chat.chat_services import chat_with_history
 from src.schemas.chat_schemas import ChatRequest, ChatResponse
 

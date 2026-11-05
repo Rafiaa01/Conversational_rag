@@ -8,7 +8,6 @@ rag_chain = create_rag_chain(retriever)
 
 
 def chat_with_history(session_id: str, message: str):
-
     # 1. Retrieve session
     session = get_session(session_id)
 
@@ -22,6 +21,7 @@ def chat_with_history(session_id: str, message: str):
 
     # 3. Generate answer
     answer = rag_chain.invoke(message)
+
 
     # 4. Update conversation history
     history.append({"role": "user", "content": message})

@@ -39,7 +39,6 @@ def build_initial_index(
 
             chunk_ids.append(chunk_id)
             all_chunks.append(chunk)
-
         # Store information required for future updates.
         document_records[filename] = {
             "hash": file_info["hash"],

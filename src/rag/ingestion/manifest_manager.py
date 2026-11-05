@@ -16,7 +16,7 @@ def load_manifest(manifest_path: Path) -> dict:
         raise RuntimeError(f"Unable to load ingestion manifest: {error}") from error
 
     if not isinstance(manifest, dict):
-        raise ValueError("Invalid manifest format.")  # noqa: TRY004
+        raise ValueError("Invalid manifest format.")      # noqa: TRY004
 
     if not isinstance(manifest.get("documents"), dict):
         raise ValueError("Manifest must contain a documents dictionary.")  # noqa: TRY004

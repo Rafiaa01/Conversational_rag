@@ -9,11 +9,9 @@ from src.chat.session_manager import (
 
 router = APIRouter(prefix="/sessions", tags=["Sessions"])
 
-
 @router.post("/")
 def create_new_session():
     return create_session()
-
 
 @router.get("/")
 def retrieve_all_sessions():

@@ -67,6 +67,7 @@ def create_vector_store():
         )
 
     else:
+        
         # Load the existing FAISS index without regenerating embeddings.
         print("Loading existing FAISS index...")
 

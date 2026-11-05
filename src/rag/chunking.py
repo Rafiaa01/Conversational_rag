@@ -2,7 +2,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 def split_documents(documents, chunk_size=800, chunk_overlap=100):
-    """Split loaded documents into overlapping chunks."""
+    """Split loaded documents into overlapping chunk."""
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
