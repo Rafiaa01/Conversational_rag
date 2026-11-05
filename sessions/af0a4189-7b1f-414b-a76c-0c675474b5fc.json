@@ -1,0 +1,37 @@
+{
+    "session_id": "af0a4189-7b1f-414b-a76c-0c675474b5fc",
+    "history": [
+        {
+            "role": "user",
+            "content": "What is the annual leave allowance for full-time employees?"
+        },
+        {
+            "role": "assistant",
+            "content": "Eligible full-time employees receive 20 working days of paid annual leave per calendar year."
+        },
+        {
+            "role": "user",
+            "content": "How many of these days can be carried over to the next year?"
+        },
+        {
+            "role": "assistant",
+            "content": "Employees may carry over up to 5 unused annual-leave days into the next calendar year."
+        },
+        {
+            "role": "user",
+            "content": "What is the company's maternity leave policy?"
+        },
+        {
+            "role": "assistant",
+            "content": "I could not find this information in the employee policy document."
+        },
+        {
+            "role": "user",
+            "content": "What is the company's maternity leave policy?"
+        },
+        {
+            "role": "assistant",
+            "content": "I could not find this information in the employee policy document."
+        }
+    ]
+}

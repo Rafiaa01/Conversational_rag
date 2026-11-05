@@ -1,0 +1,21 @@
+{
+    "documents": {
+        "fictional_employee_policies.pdf": {
+            "hash": "cb4c2089d9e7a18190aae971d9eeb919bd6631d689a782974f8ea9cd0cc91fb9",
+            "chunk_ids": [
+                "f14f3e4e-22c8-4bb1-8b55-e078698d4a62",
+                "f3a9d3ec-cfa2-4ff3-97e8-882cc6bda215",
+                "ed951522-c67a-4c4a-9046-f1faa5b4e376",
+                "f4a8ace2-a2d3-4785-b558-61634a476241",
+                "3753a26d-d7c3-4e43-9e67-26d6ca73babe",
+                "6e5d843b-cfd5-41be-b206-fcb04e0f160c",
+                "eb22b0b2-30fa-4a3c-a4e8-cf38df69990e",
+                "2f8c6b13-cba6-4025-92c3-cbf8cb8b3983",
+                "2c346b77-a1f2-4520-89b9-34499661a274",
+                "5ce15819-8dcb-433a-9b82-7703fd7c8446",
+                "447f7598-d9ea-4137-be5b-a423aa77d297",
+                "7e91c758-b4b9-4465-af57-26c56bc0ef3d"
+            ]
+        }
+    }
+}

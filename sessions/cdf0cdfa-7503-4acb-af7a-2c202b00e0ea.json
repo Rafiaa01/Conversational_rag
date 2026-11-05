@@ -1,0 +1,13 @@
+{
+    "session_id": "cdf0cdfa-7503-4acb-af7a-2c202b00e0ea",
+    "history": [
+        {
+            "role": "user",
+            "content": "What is the policy for sick leave?"
+        },
+        {
+            "role": "assistant",
+            "content": "The sick leave policy states that full-time employees receive 10 paid sick days per calendar year. Sick leave is intended for the employee's illness, injury, or medical appointment that cannot reasonably be scheduled outside working hours. Employees must notify their manager and HR as soon as possible, preferably before their scheduled start time. If the employee cannot send the notice personally, a trusted person may notify the manager. For absences of 3 or more consecutive working days, HR may request a medical certificate from a qualified healthcare professional. Unused sick days do not carry over to the next calendar year and are not paid out at year-end. If an illness may require more than 5 consecutive working days away, the employee should contact HR to discuss available leave options. Medical information shared for leave administration must be handled confidentially."
+        }
+    ]
+}
